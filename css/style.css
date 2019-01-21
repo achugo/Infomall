@@ -1023,6 +1023,7 @@ h3.what-title {
     box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.1);
     padding: 2em;
     margin: 0 .5em;
+    cursor: pointer;
 }
 
 .welcome-grid h4 {
@@ -1737,6 +1738,13 @@ li.subitem1 p {
 
     .col-md-3.col-6.s-1 {
         padding: 0 .5em;
+        
+    }
+
+   .s-1{
+        margin-bottom: 20px;
+        margin-top:20px;
+        padding:30px;
     }
 
     .view-fifth h4 {
@@ -1824,3 +1832,11 @@ li.subitem1 p {
 }
 
 /* //responsive */
+
+.black-bg{
+     background-color: #171111;
+}
+
+.box2{
+    margin: 20px 0px 20px 0px;
+}
