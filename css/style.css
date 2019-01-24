@@ -2004,5 +2004,28 @@ form{
     
  }
  
+ .subscribe-info-w3l button {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 14px 15px;
+    border: 1px solid #0197fd;
+    border-radius: 10px;
+    background: #0197fd;
+    flex-basis: 18%;
+    /* border-radius: 40px; */
+    box-shadow: 1px 5px 7px -1px rgba(0, 0, 0, 0.19);
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.subscribe-info-w3l button:hover {
+    background: #111;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
 /* end of stylin for customer request form */ 
  
