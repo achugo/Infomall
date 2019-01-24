@@ -1978,8 +1978,12 @@ form{
     -webkit-filter: grayscale(0.1);
     -moz-filter: grayscale(0.1);
     filter: grayscale(0.1);
+    transform: scale(0.95);
+    transition: transform 1s ease;
     
-  }
+ }
+
+  
 
 
 /** option select styling for customer request form */
