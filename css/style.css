@@ -571,7 +571,7 @@ a.button-style:hover {
     padding: 0px;
     position: relative;
     line-height: 35px;
-    max-width: 150px;
+    max-width: 180px;
 }
 
 .nbs-flexisel-item>img {
@@ -1972,6 +1972,16 @@ form{
       filter: grayscale(0.9);
       height: 650px;
   }
+
+  div > a img.img-fluid:hover{
+    color: White;
+    -webkit-filter: grayscale(0.1);
+    -moz-filter: grayscale(0.1);
+    filter: grayscale(0.1);
+    
+  }
+
+
 /** option select styling for customer request form */
 .styled-select {
     background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
