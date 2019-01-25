@@ -130,7 +130,7 @@ a:hover {
 /* //logo */
 /* navigation */
 .navbar {
-    padding: 1em 2em;
+    padding: 1em 9%;
     background: transparent !important;
 }
 
@@ -295,7 +295,7 @@ nav.navbar.shrink .navbar-toggler {
 }
 
 .bs-slider-overlay {
-    background-color: rgba(0, 0, 0, 0.40);
+    background-color: rgba(75, 200, 252, 0.40);
     height: 50vw;
 }
 
@@ -502,7 +502,7 @@ a.button-style:hover {
     text-shadow: 0 1px 2px rgba(18, 18, 19, 0.13);
     letter-spacing: 1px;
     font-weight: 600;
-}
+}col-lg-7 text-info-sec bg-light
 
 .d-flex.t-in {
     position: relative;
@@ -512,7 +512,7 @@ a.button-style:hover {
     position: absolute;
     left: 42%;
     z-index: 9;
-    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.29);
+    /* box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.29); */
 }
 
 /* //banner bottom */
@@ -1038,7 +1038,7 @@ h3.what-title {
 /* contact */
 /* inner services */
 .welcome-grid {
-    box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.1);
+    
     padding: 2em;
     margin: 0 .5em;
     cursor: pointer;
@@ -1060,7 +1060,7 @@ h3.what-title {
     font-size: 14px;
 }
 
-.welcome-grid:nth-child(1) {
+/* .welcome-grid:nth-child(1) {
     border-bottom: 4px solid #f44336;
 }
 
@@ -1082,7 +1082,7 @@ h3.what-title {
 
 .welcome-bottom-2 .welcome-grid:nth-child(2) {
     border-bottom: 4px solid #1cc7d0;
-}
+} */
 
 .welcome-bottom-2 {
     justify-content: center;
@@ -1101,6 +1101,25 @@ h3.what-title {
 .product-img{
     position: relative;
 }
+
+.product-img:hover{
+    filter: grayscale(0.1);
+    transform: scale(0.95);
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+.home-effect{
+    position: relative;
+}
+
+.home-effect:hover{
+    
+    transform: scale(0.95);
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
 .product-name{
     position:absolute;
     top: 12%;
@@ -1109,7 +1128,7 @@ h3.what-title {
 }
 .service-offered{
     position: absolute;
-    bottom: 70%;
+    bottom: 77%;
     left:8%;
     color: white;
 
@@ -1967,10 +1986,7 @@ form{
   }
   div > a > img.img-fluid{
       color: White;
-      -webkit-filter: grayscale(0.9);
-      -moz-filter: grayscale(0.9);
-      filter: grayscale(0.9);
-      height: 650px;
+      
   }
 
   div > a img.img-fluid:hover{
@@ -2041,5 +2057,13 @@ form{
     transition: 0.5s all;
 }
 
+.bg-none{
+    background-color: white !important;
+}
+
+.no_padding5{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
 /* end of stylin for customer request form */ 
  

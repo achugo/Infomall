@@ -35,6 +35,7 @@
 	width: 30px;
 	height: 60px;
 	cursor: pointer;
+	display: none;
 }
 
 .jislider__left-arrow__top {
@@ -72,6 +73,7 @@
 	width: 30px;
 	height: 60px;
 	cursor: pointer;
+	display: none;
 }
 
 .jislider__right-arrow__top {
