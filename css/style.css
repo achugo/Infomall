@@ -249,16 +249,9 @@ nav.navbar.shrink .navbar-toggler {
 }
 
 /*-- banner-slider --*/
-.w3layouts-banner-top {
-    background: url(../images/5.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-}
 
-.w3layouts-banner-top1 {
+
+.w3layouts-banner-top {
     background: url(../images/Banner\ 4.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -267,7 +260,7 @@ nav.navbar.shrink .navbar-toggler {
     -moz-background-size: cover;
 }
 
-.w3layouts-banner-top2 {
+.w3layouts-banner-top1 {
     background: url(../images/Banner\ 5.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -276,7 +269,7 @@ nav.navbar.shrink .navbar-toggler {
     -moz-background-size: cover;
 }
 
-.w3layouts-banner-top3 {
+.w3layouts-banner-top2 {
     background: url(../images/Banner\ 2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -285,7 +278,7 @@ nav.navbar.shrink .navbar-toggler {
     -moz-background-size: cover;
 }
 
-.w3layouts-banner-top4 {
+.w3layouts-banner-top3 {
     background: url(../images/Banner\ 3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -295,9 +288,10 @@ nav.navbar.shrink .navbar-toggler {
 }
 
 .bs-slider-overlay {
-    background-color: rgba(75, 200, 252, 0.40);
+    background-color: rgba(0, 28, 49, 0.5);
     height: 50vw;
 }
+
 
 .w3l-slide-text {
     padding-top: 17em;
@@ -736,7 +730,7 @@ p.copy-right-grids a:hover {
 /* inner pages */
 /* about page */
 .inner-banner-w3ls {
-    background: url(../images/bg1.jpg) no-repeat top;
+    background: url(../images/Contact.png) no-repeat top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2032,6 +2026,29 @@ form{
     height: 34px;
     width: 268px;
     
+ }
+
+ .welcome-grid button{
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 14px 15px;
+    border: 1px solid #0197fd;
+    border-radius: 10px;
+    background: #0197fd;
+    flex-basis: 18%;
+    /* border-radius: 40px; */
+    box-shadow: 1px 5px 7px -1px rgba(0, 0, 0, 0.19);
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+ }
+
+ .welcome-grid:hover{
+    background: #111;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
  }
  
  .subscribe-info-w3l button {
