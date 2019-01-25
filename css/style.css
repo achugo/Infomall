@@ -2044,7 +2044,7 @@ form{
     transition: 0.5s all;
  }
 
- .welcome-grid:hover{
+ .welcome-grid button:hover{
     background: #111;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
