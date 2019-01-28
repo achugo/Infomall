@@ -111,11 +111,12 @@
 							<textarea id="textarea" name="message" placeholder=""></textarea>
 						</div>
 						<div class="input-group1">
-							<input class="form-control" type="submit" value="Submit" data-toggle="modal" data-target="#myModal">
+							<input class="form-control" type="submit" onclick="SuccessMessage()" value="Submit" data-toggle="modal" data-target="#myModal">
 						</div>
 
 						
 					</form>
+					<p id="success"></p>
 				</div>
 			</div>
 		</div>
@@ -252,6 +253,19 @@
 		</div>
 	</div>
 	<!-- //copyright -->
+
+	<script>
+			function SuccessMessage() {
+			  var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  document.getElementById("success").innerHTML = this.responseText;
+				}
+			  };
+			  xhttp.open("GET", "success.txt", true);
+			  xhttp.send();
+			}
+	</script>
 
 
 	<!-- Js files -->
