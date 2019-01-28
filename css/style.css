@@ -9,7 +9,7 @@ body {
     padding: 0;
     margin: 0;
     background: #FFF;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body a {
@@ -61,13 +61,13 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-family: 'Amaranth', sans-serif;
+    font-family: "Arial Black", sans-serif;
 }
 
 p {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.9;
@@ -123,7 +123,7 @@ a:hover {
 /* logo */
 .navbar-light .navbar-brand {
     color: #fff;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
 }
 
@@ -728,13 +728,13 @@ p.copy-right-grids a:hover {
 /* inner pages */
 /* about page */
 .inner-banner-w3ls {
-    background: url(../images/Contact.png) no-repeat top;
+    
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    height: 19vw;
+    height: 7vw;
 }
 
 .breadcrumb-agile {
@@ -2183,3 +2183,5 @@ h6.complaint{
     letter-spacing: 2px;
 
 }
+
+.zero_padding{padding-left: 0px !important; padding-right: 0px !important;}
