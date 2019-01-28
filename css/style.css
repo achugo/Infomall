@@ -1135,10 +1135,10 @@ h3.what-title {
 
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
     .service-offered{
         position: absolute;
-        bottom: 70%;
+        bottom: 50%;
         left:8%;
         color: white;
     
@@ -2195,7 +2195,7 @@ ul.clientele li{
 @media (max-width:768px){
     ul.clientele li{
         display: inline;
-        padding:0.5rem 1rem;
+        padding:0.5rem 0.8rem;
     }
 }
 
@@ -2308,4 +2308,13 @@ h6.complaint{
     display: inline-block;
     padding-left: 20%;
     padding-top:2%;
+  }
+
+  @media(max-width:768px){
+    #send_us{
+        display: inline;
+        padding-left: 5%;
+        padding-top:2%;
+        font-size: 14px;
+      }
   }
