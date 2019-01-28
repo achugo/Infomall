@@ -2103,8 +2103,7 @@ form{
 
 .text-info-sec > img{
     position: absolute;
-    left:45%;
-    top:20%;
+    
     width: 50%;
     -webkit-animation-name: boucylogo; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
@@ -2115,6 +2114,13 @@ form{
   animation-name: bouncylogo;
   animation-direction: alternate
   
+}
+
+@media (max-width:966px) and (min-width:768px){
+    .text-info-sec > img{
+    left:25%;
+    top:20%;
+    }
 }
 
 .text-info-sec > img{
@@ -2287,4 +2293,12 @@ h6.complaint{
     content: '✓';
   }
   
-  
+  .paddingtop4rem{
+      padding-top: 4rem;
+  }
+
+  #send_us{
+    display: inline-block;
+    padding-left: 20%;
+    padding-top:2%;
+  }

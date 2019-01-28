@@ -56,12 +56,8 @@ padding: 35px;
 padding-top:20px;
 margin: 0;
 letter-spacing:3px;
-color:#4bc8fc;
--webkit-text-fill-color: transparent;
-background: -webkit-linear-gradient(transparent, transparent),
-url("../images/gold.jpg" ) repeat;;
-background: -o-linear-gradient(transparent, transparent);
--webkit-background-clip: text;
+color:#000;
+
 }
 
 .padding-w3l{
@@ -74,7 +70,7 @@ margin:0 auto;
 }
 
 .grid1, .grid2, .grid3{
-background: #31353c;
+background:#565656;
 width:33%;
 float:left;
 transition: 0.5s all;
@@ -123,7 +119,7 @@ font-weight:600;
 margin: 0px;
 padding-bottom:0px;
 font-size: 54px;
-color:rgb(247, 226, 116);
+color:#4bc8fc;
 }
 
 .header span{
@@ -145,12 +141,12 @@ padding-right:10px;
 }
 .info-agile span{
 	font-size: 20px;
-    color: rgba(247, 34, 71, 0.75);
+    color: #da3c1f;
     font-weight: 600;
 }
 a.sign-up {
     padding: 8px 16px;
-    background: rgb(97, 86, 241); 
+    background: #4bc8fc; 
     text-decoration: none;
     border-radius: 4px;
 	color:#fff;
@@ -159,7 +155,7 @@ a.sign-up {
     vertical-align: middle;
 }
 a.sign-up:hover{
-    background: rgba(216, 16, 51, 0.80);
+    background: #da3c1f;
     text-decoration: none;
 	color:white;
 }
