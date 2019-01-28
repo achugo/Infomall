@@ -1050,6 +1050,7 @@ h3.what-title {
 
 .welcome-grid p {
     font-size: 14px;
+    padding-bottom: 0.5rem;
 }
 
 /* .welcome-grid:nth-child(1) {
@@ -2163,4 +2164,22 @@ form{
 ul.clientele li{
     display: inline-block;
     padding:0.5rem 2rem;
+}
+
+.service_desc{
+    display: block;
+    -webkit-transition: all 2s ease;  
+    -moz-transition: all 2s ease;  
+    -o-transition: all 2s ease;  
+    -ms-transition: all 2s ease;  
+    transition: all 2s ease;
+    text-align: justify;
+}
+
+h6.complaint{
+    padding-bottom:1rem;
+    color: #343a40 !important;
+    font-size: 16px;
+    letter-spacing: 2px;
+
 }
