@@ -257,13 +257,20 @@ nav.navbar.shrink .navbar-toggler {
 /*-- banner-slider --*/
 
 
-.w3layouts-banner-top {
-    background: url(../images/Banner\ 4.jpg) no-repeat 0px 0px;
+#mobile-banner {
+    background: url(images/b1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+    position: relative;
+    width: 100%;
+    background-image: url(images/b1.jpg);
+}
+
+#mobile-banner > img{
+    width: inherit;
 }
 
 .w3layouts-banner-top1 {
@@ -273,6 +280,7 @@ nav.navbar.shrink .navbar-toggler {
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+    display: block;
 }
 
 .w3layouts-banner-top2 {
@@ -502,7 +510,9 @@ a.button-style:hover {
     text-shadow: 0 1px 2px rgba(18, 18, 19, 0.13);
     letter-spacing: 1px;
     font-weight: 600;
-}col-lg-7 text-info-sec bg-light
+}
+
+
 
 .d-flex.t-in {
     position: relative;
@@ -2334,3 +2344,33 @@ h6.complaint{
   @media(min-width:991px) and (max-width:768px){
       
   }
+
+#mobile-banner {
+    width: 100%;
+    position: relative;
+    display: none
+}
+
+#mobile-banner > img{
+    width: inherit;
+}
+
+ @media(max-width:860px){
+    #demo{
+        display: none;
+    }
+    #mobile-banner {
+        display: block;
+    }
+    
+  
+ } 
+  
+#mobile-banner {
+    width: 100%;
+    position: relative;
+}
+
+#mobile-banner > img{
+    width: inherit;
+}
