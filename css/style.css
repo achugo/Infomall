@@ -1148,8 +1148,7 @@ h3.what-title {
 @media (max-width:768px){
     .service-offered{
         position: absolute;
-        bottom: 50%;
-        left:8%;
+        bottom: 70%;
         color: white;
     
     }
@@ -2196,6 +2195,8 @@ form{
 
 
 /* end of stylin for customer request form */ 
+
+
  
 ul.clientele li{
     display: inline-block;
@@ -2362,6 +2363,12 @@ h6.complaint{
     #mobile-banner {
         display: block;
     }
+    h1.about-header{
+        font-size: 2rem;
+    }
+    h3.next-header{
+        font-size: 1.5rem;
+    }
     
   
  } 
@@ -2373,4 +2380,20 @@ h6.complaint{
 
 #mobile-banner > img{
     width: inherit;
+}
+
+
+
+@media(max-width:1024px) and (min-width:841px){
+    .service-offered{
+        position: absolute;
+        bottom: 70%;
+        left:8%;
+        color: white;
+    
+    }
+}
+
+ul.clientele{
+    text-align: justify;   
 }
