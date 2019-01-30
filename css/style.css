@@ -1285,7 +1285,7 @@ li.subitem1 p {
     }
 
     .navbar {
-        padding: 1em 1.5em;
+        padding: 1em 3em 1em 4.2em;
     }
 
     .w3l-slide-text p {
@@ -2317,4 +2317,20 @@ h6.complaint{
         padding-top:2%;
         font-size: 14px;
       }
+  }
+
+  .graphik{
+      font-family: 'Graphik' !important;
+  }
+
+  .profile-padding{
+      padding-bottom: 1rem;
+  }
+
+  .infomallblue{
+      color: #4bc8fc;
+  }
+
+  @media(min-width:991px) and (max-width:768px){
+      
   }

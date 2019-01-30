@@ -91,7 +91,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //banner slider -->
 
-	<div class="serives-agile py-5">
+	<div class="serives-agile py-5 graphik">
 		<div class="container py-xl-5 py-lg-3">
                 <div class="row">
                         <div class="col-md-2">
@@ -104,28 +104,59 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
                       	<div class="col-md-10">
                           <div class="tab-content">
-                     		 <div id="container" class="tab-pane fade in active">
+                     		 <div id="promotions" class="tab-pane fade in active">
+									<div class="row">
+											<!-- <div class="col-md-12"><span class="pull-left">Hi, David</span></div> -->
+											
+											<div class="col-md-12">
+												<h3 class="no_margintop infomallblue">My Promotions</h3>
+												<div class="row">
+													<div class="col-md-4 col-sm-4 col-xs-4">
+														<h4 class="">New Year Promo</h4>
+													</div>
+													<div class="col-md-8 col-xs-8">
+															<h4 class="">Package:<span>SME Basic</span></h4>
+													</div>
+												</div>
+												<hr>
+											
+											</div>
+											
+											<div class="col-md-12">
+													<div class="row">
+															<div class="col-md-4 col-xs-4 col-sm-4">
+																<h4 class="profile-padding">Payments</h4>
+															</div>
+															<div class="col-md-8 col-xs-8 col-sm-8">
+																<h4 class="">Payment Status<span>Pending</span></h4>
+															</div>
+													</div>
+												
+												<form>
+													<p><a class="sign-up" style="cursor:pointer;" value="Pay Now" id="submit">Pay Now</a></p>
+												</form>
+												<hr>
+											</div>
+											
+											
+											<div class="col-md-12">
+													<div class="row">
+															<div class="col-md-4 col-xs-4">
+																Start Date
+															</div>
+															<div class="col-md-8 col-xs-4">
+																	<span>Expected end date</span>
+															</div>
+													</div>		  
+														  
+											</div>
+											
+									</div>
+                     		 </div>
 							
-                      <div id="promotions" class="tab-pane fade">
-							<div class="row">
-									<div class="col-md-12"><span class="pull-left">Hi, David</span></div>
-	
-									</div>
-									
-									<h3>My Promotions</h3>
-									<p>New Year Promo<span>Package</span></p>
-									
-									<div class="">
-										<p>Payment Status<span>Pending</span></p>
-										<p><a class="sign-up">Pay Now</a></p>
-									</div>
-
-									<div class="">
-											<p>Start Date<span>Expected end Date</span></p>
-											<p><a class="sign-up">Pay Now</a></p>
-										</div>
-									
-								</div>
+                      <div id="menu1" class="tab-pane fade">
+						  <p>something light</p>
+							
 					</div>
                       <div id="menu2" class="tab-pane fade">
                         <h3>Menu 2</h3>
@@ -272,10 +303,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="https://w3layouts.com/" target="_blank">W3layouts</a>
 					</p>
 				</div>
-				<div class="col-lg-4 w3ls-left-copy text-right">
-					<p class="text-white">
-						<i class="fas fa-phone mr-2"></i> 1234567890</p>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -285,10 +313,50 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- Js files -->
 	<!-- JavaScript -->
 	<script src="js/jquery-2.2.3.min.js"></script>
+	
 	<!-- Default-JavaScript-File -->
 	<script src="js/bootstrap.js"></script>
 	<!-- Necessary-JavaScript-File-For-Bootstrap -->
-
+	<script type="text/javascript" src="http://flw-pms-dev.eu-west-1.elasticbeanstalk.com/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+	<script>
+		 document.addEventListener("DOMContentLoaded", function(event) {
+	  document.getElementById("submit").addEventListener("click", function(e) {
+		var PBFKey = "FLWPUBK-aa82cac8ee08f5bb206f937db274081a-X";
+		
+		getpaidSetup({
+		  PBFPubKey: PBFKey,
+		  customer_email: "user@example.com",
+		  customer_firstname: "Temi",
+		  customer_lastname: "Adelewa",
+		  custom_description: "Pay Internet",
+		  custom_logo: "http://localhost/communique-3/skin/frontend/ultimo/communique/custom/images/logo.svg",
+		  custom_title: "Communique Global System",
+		  amount: 2000,
+		  customer_phone: "234099940409",
+		  country: "NG",
+		  currency: "NGN",
+		  txref: "rave-123456",
+		  integrity_hash: "6800d2dcbb7a91f5f9556e1b5820096d3d74ed4560343fc89b03a42701da4f30",
+		  onclose: function() {},
+		  callback: function(response) {
+			var flw_ref = response.tx.flwRef; // collect flwRef returned and pass to a 					server page to complete status check.
+			console.log("This is the response returned after a charge", response);
+			if (
+			  response.tx.chargeResponseCode == "00" ||
+			  response.tx.chargeResponseCode == "0"
+			) {
+			  // redirect to a success page
+			} else {
+			  // redirect to a failure page.
+			}
+		  }
+		});
+	  });
+	});
+	
+	
+	
+	</script>
 	<!-- navigation -->
 	<!-- dropdown smooth -->
 	<script>
