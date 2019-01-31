@@ -2397,3 +2397,23 @@ h6.complaint{
 ul.clientele{
     text-align: justify;   
 }
+
+.paddinghalf-rem{
+    padding:0.75rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.paddinghalf-rem img{
+    height: auto;
+    margin: 0 auto;
+    -webkit-filter: grayscale(0.8);
+    -moz-filter: grayscale(0.8);
+    filter: grayscale(0.8);
+}
+
+.paddinghalf-rem img:hover {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    filter: grayscale(0);
+}
